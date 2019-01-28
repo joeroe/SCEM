@@ -1,6 +1,6 @@
 # Stable Isotope Time Series
 
-Forked from [soudeepd/SCEM]. Original readme below.
+Forked from [soudeepd/SCEM](https://github.com/soudeepd/SCEM). Original readme below.
 
 ---
 
