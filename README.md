@@ -1,4 +1,8 @@
-# SCEM
+# Stable Isotope Time Series
+
+Forked from [soudeepd/SCEM]. Original readme below.
+
+---
 
 R scripts to perform the Splitting-Coalescence-Estimation Method (cf. Chazin et al., 2018) to model birth seasonality in studies of herd animals.
 

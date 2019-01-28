@@ -1,0 +1,25 @@
+Package: sits
+Title: Stable Isotope Time Series
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Hannah",
+           family = "Chazin",
+           role = c("aut"))
+    person(given = "Soudeep",
+           family = "Deb",
+           role = c("aut"))
+    person(given = "Joshua",
+           family = "Falk",
+           role = c("aut"))
+    person(given = "Arun",
+           family = "Srinivasan",
+           role = c("aut"))
+    person(given = "Joe",
+           family = "Roe",
+           role = c("com", "cre"),
+           email = "jwg983@hum.ku.dk")
+Description: R package to perform the Splitting-Coalescence-Estimation Method (cf. Chazin et al., 2018) to model birth seasonality in studies of herd animals.
+License: 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
