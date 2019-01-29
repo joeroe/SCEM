@@ -20,7 +20,7 @@ makeFits = function(paths) {
   fits = c()
   for(i in 1:length(paths)) {
     data = paths[[i]]
-    curve = sineFit(data)
+    curve = fit_cosine(data)
     fit = convertParameters(curve)
     fit$predictedMin = fit$intercept - abs(fit$amplitude)
     fit$predictedMax = fit$intercept + abs(fit$amplitude)
@@ -56,7 +56,7 @@ makeFits = function(paths) {
 #' sits_cosine(tsaghkahovit[tsaghkahovit$id==6223,], oxygen~distance)
 #' 
 #' @export
-sits_cosine <- function(data, formula) {
+fit_cosine <- function(data, formula) {
   # Rewrite formula as a sine/cosine model
   environment(formula) <- environment()
   formula %>% 
