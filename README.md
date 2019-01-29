@@ -1,5 +1,7 @@
-# Stable Isotope Time Series
+# sits: Stable Isotope Time Series
 
+Functions for analysis of stable isotope time series, including the cosine (Balasse 2012; Tornero et al. 2013) and splitting-coalescence-estimation (SCEM, Chazin et al. 2018) methods for modelling season of birth. 
+    
 Forked from [soudeepd/SCEM](https://github.com/soudeepd/SCEM). Original readme below.
 
 ---

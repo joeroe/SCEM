@@ -1,24 +1,28 @@
 Package: sits
 Title: Stable Isotope Time Series
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Hannah",
-           family = "Chazin",
-           role = c("aut"))
-    person(given = "Soudeep",
-           family = "Deb",
-           role = c("aut"))
-    person(given = "Joshua",
-           family = "Falk",
-           role = c("aut"))
-    person(given = "Arun",
-           family = "Srinivasan",
-           role = c("aut"))
-    person(given = "Joe",
-           family = "Roe",
-           role = c("com", "cre"),
-           email = "jwg983@hum.ku.dk")
-Description: R package to perform the Splitting-Coalescence-Estimation Method (cf. Chazin et al., 2018) to model birth seasonality in studies of herd animals.
+Authors@R: c( 
+      person(given = "Joe",
+             family = "Roe",
+             role = c("com", "cre"),
+             email = "jwg983@hum.ku.dk"),
+      person(given = "Hannah",
+             family = "Chazin",
+             role = c("aut")),
+      person(given = "Soudeep",
+             family = "Deb",
+             role = c("aut")),
+      person(given = "Joshua",
+             family = "Falk",
+             role = c("aut")),
+      person(given = "Arun",
+             family = "Srinivasan",
+             role = c("aut"))
+    )
+Description: Functions for analysis of stable isotope time series, including
+    the cosine (Balasse 2012; Tornero et al. 2013) and 
+    splitting-coalescence-estimation (SCEM, Chazin et al. 2018) methods for
+    modelling season of birth.
 License: 
 Encoding: UTF-8
 LazyData: true
