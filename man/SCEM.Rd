@@ -7,21 +7,21 @@
 SCEM(paths, bandwidth)
 }
 \arguments{
-\item{paths}{A list of data frames, where each frame contains the data for one individual. There 
+\item{paths}{A list of data frames, where each frame contains the data for one individual. There
 should be two columns with names 'distance' and 'oxygen'.}
 
-\item{bandwidth}{Denotes the order of the bandwidth that should be used in the splitting-coalescence 
+\item{bandwidth}{Denotes the order of the bandwidth that should be used in the splitting-coalescence
 (SC) clustering algorithm. A value k will mean that the bandwidth used in the algorithm is n^k.}
 }
 \value{
-A list that contains a data frame and a list of vectors. The data frame has the individual 
-information (ID, species, number of observations in the time series), cluster assignment, estimated 
+A list that contains a data frame and a list of vectors. The data frame has the individual
+information (ID, species, number of observations in the time series), cluster assignment, estimated
 period, delay and the birth seasonality estimate for every individual. The list of vectors gives the
 groups formed by the clustering algorithm in the method.
 }
 \description{
 Performs the clustering algorithm SCEM on the bivariate time series data - where
 one series is for the distance from the cementum-enamel junction, and the other series is for
-the value of the oxygen-18 isotope at that distance - and returns the class-assignments and 
+the value of the oxygen-18 isotope at that distance - and returns the class-assignments and
 birth seasobality estimates for all the individuals.
 }

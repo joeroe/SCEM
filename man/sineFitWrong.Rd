@@ -7,7 +7,7 @@
 sineFitWrong(data, amplitude, intercept)
 }
 \arguments{
-\item{data}{A data frame that contains the data for one individual. There should be two columns 
+\item{data}{A data frame that contains the data for one individual. There should be two columns
 with names 'distance' and 'oxygen'.}
 
 \item{amplitude}{A number, corresponding to a given value for the amplitude parameter.}
@@ -18,7 +18,7 @@ with names 'distance' and 'oxygen'.}
 A fitted model object from the nls function in R.
 }
 \description{
-Performs the updated nonlinear least squares (NLS) regression method for the cosine 
-model proposed by Balasse et al. The method calculates with the proposed initial values at first, 
+Performs the updated nonlinear least squares (NLS) regression method for the cosine
+model proposed by Balasse et al. The method calculates with the proposed initial values at first,
 and then fits the NLS method as required.
 }

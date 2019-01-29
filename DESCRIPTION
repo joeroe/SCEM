@@ -23,3 +23,11 @@ License:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    rlang,
+    magrittr
+Roxygen: list(markdown = TRUE)

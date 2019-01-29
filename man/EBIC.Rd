@@ -7,13 +7,13 @@
 EBIC(paths, partition, bandwidth)
 }
 \arguments{
-\item{paths}{A list of data frames, where each frame contains the data for one individual. Every 
+\item{paths}{A list of data frames, where each frame contains the data for one individual. Every
 data frame should have two columns with names 'distance' and 'oxygen'.}
 
 \item{partition}{A list of vectors. Each element in the list is a vector of integers, corresponding
 to individuals considered in one group.}
 
-\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process. 
+\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process.
 bandwidth = k will mean that the bandwidth is n^k.}
 }
 \value{

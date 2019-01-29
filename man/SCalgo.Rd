@@ -7,10 +7,10 @@
 SCalgo(paths, bandwidth)
 }
 \arguments{
-\item{paths}{A list of data frames, where each frame contains the data for one individual. There 
+\item{paths}{A list of data frames, where each frame contains the data for one individual. There
 should be two columns with names 'distance' and 'oxygen'.}
 
-\item{bandwidth}{Denotes the order of the bandwidth that should be used in the splitting-coalescence 
+\item{bandwidth}{Denotes the order of the bandwidth that should be used in the splitting-coalescence
 (SC) clustering algorithm. A value k will mean that the bandwidth used in the algorithm is n^k.}
 }
 \value{

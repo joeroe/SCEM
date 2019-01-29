@@ -7,7 +7,7 @@
 makeFitsWrong(paths, amplitude, intercept)
 }
 \arguments{
-\item{paths}{A list of data frames, where each frame contains the data for one individual. Every 
+\item{paths}{A list of data frames, where each frame contains the data for one individual. Every
 data frame should have two columns with names 'distance' and 'oxygen'.}
 
 \item{amplitude}{A number, corresponding to a given value for the amplitude parameter.}
@@ -15,13 +15,13 @@ data frame should have two columns with names 'distance' and 'oxygen'.}
 \item{intercept}{A number, corresponding to a given value for the intercept parameter.}
 }
 \value{
-A data frame with the estimated parameters in the model, birth seasonality estimate, 
+A data frame with the estimated parameters in the model, birth seasonality estimate,
 predicted/observed minimum/maximum for the oxygen isotope variable, mean squared error
 and Pearson's R^2 corresponding to the model fit for every individual.
 }
 \description{
-Performs the nonlinear least squares (NLS) regression method for the cosine 
-model, with the given initial values for amplitude and intercept. It fits the NLS method 
+Performs the nonlinear least squares (NLS) regression method for the cosine
+model, with the given initial values for amplitude and intercept. It fits the NLS method
 as required, and then computes different quantities for the birth seasonality estimates
 corresponding to different individuals.
 }

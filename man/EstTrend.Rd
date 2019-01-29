@@ -11,14 +11,14 @@ EstTrend(y, time, bandwidth)
 
 \item{time}{A vector of time points where the value of the trend needs to be estimated.}
 
-\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process. 
+\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process.
 bandwidth = k will mean that the bandwidth is n^k.}
 }
 \value{
 A vector of estimated values for the trend function at the given time-points.
 }
 \description{
-The trend function for each individual time series is estimated non-parametrically 
-by the local linear estimate (as discussed in Fan and Gijbels (1996)). Detailed description can 
+The trend function for each individual time series is estimated non-parametrically
+by the local linear estimate (as discussed in Fan and Gijbels (1996)). Detailed description can
 be found in the supplementary file of the paper.
 }

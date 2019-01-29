@@ -7,12 +7,12 @@
 calculateRSS(paths, S, bandwidth)
 }
 \arguments{
-\item{paths}{A list of data frames, where each frame contains the data for one individual. Every 
+\item{paths}{A list of data frames, where each frame contains the data for one individual. Every
 data frame should have two columns with names 'distance' and 'oxygen'.}
 
 \item{S}{A vector of integers showing which individuals are considered in the group.}
 
-\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process. 
+\item{bandwidth}{Denotes the order of the bandwidth that should be used in the estimation process.
 bandwidth = k will mean that the bandwidth is n^k.}
 }
 \value{
@@ -20,8 +20,8 @@ A vector of length equal to the group-size, so that each element is the RSS for 
 corresponding individual in the group.
 }
 \description{
-The trend function for each individual time series is estimated non-parametrically 
-by the local linear estimate (as discussed in Fan and Gijbels (1996)). Then, the common trend 
+The trend function for each individual time series is estimated non-parametrically
+by the local linear estimate (as discussed in Fan and Gijbels (1996)). Then, the common trend
 function for the group is estimated by taking the average over the group. Next, the shift functions
 are estimated as the differences from the individual trend functions and finally, the residual sum
 of squares are calculated  using the original values, the common trend functions and the shifts.
